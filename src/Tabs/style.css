@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  background-color: darkcyan;
+}
+
+h1 {
+  padding: 20px;
+}
+
+button {
+  width: 100px;
+  height: 35px;
+  margin: 5px;
+  text-align: center;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  background-color: lightblue;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+button:hover {
+  opacity: 0.7;
+}
+.content {
+  line-height: 1.5rem;
+  font-size: 18px;
+  padding: 35px;
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+  font-weight: bold;
+}
